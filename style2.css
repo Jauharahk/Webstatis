@@ -1,0 +1,102 @@
+/*ini adalah comment*/
+
+/*reset*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: verdana, sans-serif;
+    color: black;
+    background-color: bisque;
+}
+table, th, td {
+    border: 1px solid;
+    margin: auto;
+}
+table {
+    width: 65%;
+}
+img {
+    width: 17%; /*ukuran gambar*/
+    padding-bottom: 2%;
+    margin-left: 41%;
+    margin-right: 5%;
+}
+
+/*paragraf*/
+p {
+    background-color: bisque;
+    color: black;
+    font-family: verdana, sans-serif;
+    text-align: justify;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 20px;
+}
+ul {
+    list-style-type: square;
+    padding-left: 64px;
+    background-color:bisque;
+    color: black;
+    font-family: verdana, sans-serif;
+    text-align: justify;
+}
+
+/*link*/
+a {
+    color: white;
+}
+.wrapper-content {
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    color: black;
+}
+
+/*class*/
+.pback {
+    border-radius: 10px;
+    background-color: lightgoldenrodyellow;
+    color: black;
+    text-align: center;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.back {
+    background-image: url(images/insideout.jpeg);
+    background-size: cover;
+    padding-top: 2%;
+    padding-bottom: 40%;
+    background-attachment: fixed;
+}
+.head {
+    border-radius: 10px;
+    background-color: lightgoldenrodyellow;
+    color: black;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 2%;
+}
+.head2 {
+    border-radius: 10px;
+    background-color: lightgoldenrodyellow;
+    color: black;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 2%;
+}
+.link {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.nama {
+    text-align: center;
+}
+
+/*icon*/
+.fa-instagram {
+    color: black;
+    margin-left: 2%;
+}
