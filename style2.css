@@ -1,68 +1,31 @@
-/*ini adalah comment*/
-
-/*reset*/
-* {
-    margin: 0;
-    padding: 0;
-}
 body {
-    font-family: verdana, sans-serif;
-    color: black;
     background-color: bisque;
+    font-family: verdana, sans-serif;
+    color : black;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+    font-size: 120%;
 }
-table, th, td {
-    border: 1px solid;
-    margin: auto;
-}
-table {
-    width: 65%;
-}
+
+/*images size*/
 img {
-    width: 17%; /*ukuran gambar*/
-    padding-bottom: 2%;
-    margin-left: 41%;
-    margin-right: 5%;
+    width: 20%;
 }
-
-/*paragraf*/
-p {
-    background-color: bisque;
-    color: black;
-    font-family: verdana, sans-serif;
-    text-align: justify;
-    padding-left: 70px;
-    padding-right: 70px;
-    padding-top: 20px;
+.J {
+    height: 70px; 
+    width: 120px; 
+    margin-left: 3%;
 }
-ul {
-    list-style-type: square;
-    padding-left: 64px;
-    background-color:bisque;
-    color: black;
-    font-family: verdana, sans-serif;
-    text-align: justify;
-}
-
-/*link*/
-a {
-    color: white;
-}
-.wrapper-content {
-    background-color: lightgoldenrodyellow;
-    text-align: center;
-    color: black;
-}
-
-/*class*/
-.pback {
-    border-radius: 10px;
+#A {
     background-color: lightgoldenrodyellow;
     color: black;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     text-align: center;
-    padding-top: 0%;
-    padding-bottom: 0%;
-    margin-left: 30%;
-    margin-right: 30%;
+    border-radius:  10px;
+    border: 5px solid coral; 
 }
 .back {
     background-image: url(images/insideout.jpeg);
@@ -71,32 +34,74 @@ a {
     padding-bottom: 40%;
     background-attachment: fixed;
 }
-.head {
-    border-radius: 10px;
-    background-color: lightgoldenrodyellow;
-    color: black;
-    text-align: center;
-    margin-left: 5%;
-    margin-right: 2%;
+.image {
+    height: 380;
+    width: 250;
+    padding-bottom: 2%;
+    margin-left: 41%;
+    margin-right: 5%;
 }
-.head2 {
-    border-radius: 10px;
+.parback {
     background-color: lightgoldenrodyellow;
     color: black;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     text-align: center;
-    margin-left: 5%;
-    margin-right: 2%;
+    border-radius:  10px;
 }
 .link {
     padding-left: 25%;
     padding-right: 25%;
 }
-.nama {
+
+/*css font*/
+p {
+    margin-left: 50px;
+    margin-right: 50px;
+    color: black;
+    font-family: verdana, sans-serif;
+    text-align: justify;
+}
+table, th, td {
+    border: 1px solid;
+   margin:auto;
+}
+table {
+ width: 65%;
+}
+.director {
+    list-style-type: square;
+    text-align: justify;
+    color: black;
+    font-size: 100%;
+    font-family: verdana, sans-serif;
+}
+#D {
     text-align: center;
+    background-color: lemonchiffon;
+    width: 500px;
+    border: 15px solid chocolate;
+    padding: 50px;
+    margin-left: 25%;
 }
 
-/*icon*/
+/*link*/
+.film {
+    background-color: coral;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 34%;
+}
+
+/*footer*/
 .fa-instagram {
     color: black;
     margin-left: 2%;
+}
+.nama {
+    text-align: center;
 }
